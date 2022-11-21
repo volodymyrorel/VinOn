@@ -1,0 +1,146 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.nav-item {
+  font-size: 22px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border-radius: 0px;
+  border-color: rgba(0, 0, 0, 0);
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+}
+.navbar {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-nav {
+  gap: 0;
+}
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    gap: 30px;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 30px;
+  margin-top: 36px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.textcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.autoImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+}
+.autoImg_pic {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+.btn {
+  margin-bottom: 34px;
+  padding: 10px 36px;
+}
+
+.modal-content .btn {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.modal-content h2 {
+  text-align: center;
+}
+.modal-content img {
+  width: 100px;
+  height: 100px;
+}
+.modal-content .textcont {
+  gap: 5px;
+  padding: 0;
+}
+.modal-content a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.modal-footer {
+  border-top: none;
+  justify-content: center;
+}
+
+.form-floating {
+  color: gray;
+  width: 90%;
+}
+
+.text-verify {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */

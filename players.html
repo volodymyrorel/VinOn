@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VinOn | Players</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./players/css/style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./players/img/logo_img.svg" alt="VinOn" width="50">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./info.html">Info</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./players.html">Players</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./records.html">Records</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#LogIn">Log In</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="container-fluid bg-light">
+        <div class="row">
+          <div class="col-12">
+            <h1>Players</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-light">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 textcont">
+            <div class="autoImg">
+              <img class="autoImg_pic" src="./players/img/p1.jpg" alt="">
+            </div>
+            <p>Pro-Ject T1 Phono SB OM5e Walnut (9120097820044)</p>
+            <button class="btn btn-secondary">Show Product</button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 textcont">
+            <div class="autoImg">
+              <img class="autoImg_pic" src="./players/img/p2.jpg" alt="">
+            </div>
+            <p>Numark PT01 Touring (222387)</p>
+            <button class="btn btn-secondary">Show Product</button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 textcont">
+            <div class="autoImg">
+              <img class="autoImg_pic" src="./players/img/p3.jpg" alt="">
+            </div>
+            <p>Pro-Ject Primary E Phono OM NN Black (9120082383653)</p>
+            <button class="btn btn-secondary">Show Product</button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 textcont">
+            <div class="autoImg">
+              <img class="autoImg_pic" src="./players/img/p4.jpg" alt="">
+            </div>
+            <p>TEAC TN-180BT-A3/CH</p>
+            <button class="btn btn-secondary">Show Product</button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 textcont">
+            <div class="autoImg">
+              <img class="autoImg_pic" src="./players/img/p5.jpg" alt="">
+            </div>
+            <p>Pro-Ject A1 OM10 Black (9120122291672)</p>
+            <button class="btn btn-secondary">Show Product</button>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 textcont">
+            <div class="autoImg">
+              <img class="autoImg_pic" src="./players/img/p6.jpg" alt="">
+            </div>
+            <p>Lenco LS-40WD (A003104)</p>
+            <button class="btn btn-secondary">Show Product</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="text-center p-3 bg-dark">
+          <span class="text-white">© 2022 Copyright: VinOn ltd.</span>
+      </div>
+    </footer>
+    <!-- modal Log In -->
+    <div class="modal fade" tabindex="-1" id="LogIn" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="LogInModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="textcont">
+              <img src="./players/img/logo_black.svg" alt="">
+              <h2>Log In</h2>
+            </div>
+              <form class="form-floating my-5" action="">
+                <div class="textcont">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="" required>
+                    <label for="floatingEmail">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="" minlength="8" required>
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <button type="submit" class="btn btn-secondary">Log In</button>
+                </div>
+              </form>
+            <a href="#SignUp" data-bs-target="#SignUp" data-bs-toggle="modal">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -->
+    <!-- modal Sign Up -->
+    <div class="modal fade" tabindex="-1" id="SignUp" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="SignUpModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="textcont">
+              <img src="./players/img/logo_black.svg" alt="">
+              <h2>Sign Up</h2>
+            </div>
+              <form class="form-floating my-5" action="">
+                <div class="textcont">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingEName" placeholder="" required>
+                    <label for="floatingEName">Enter your first name</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingESurname" placeholder="" required>
+                    <label for="floatingESurname">Enter your last name</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingEEmail" placeholder="" required>
+                    <label for="floatingEEmail">Enter your email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword1" placeholder="" minlength="8" required>
+                    <label for="floatingPassword1">Enter your password</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword2" placeholder="" minlength="8" required>
+                    <label for="floatingPassword2">Repeat your password</label>
+                  </div>
+                  <span class="text-verify">Creating an account means you’re okay with our Terms of Service and Privacy Policy</span>
+                  <button type="submit" class="btn btn-secondary">Sign Up</button>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
